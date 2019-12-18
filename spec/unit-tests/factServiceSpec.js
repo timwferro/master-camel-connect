@@ -12,7 +12,7 @@ describe("#FactService", function() {
   it("should return a fact about ostrichs", function() {
     var fact = FactService.getOstrichFact();
     console.log("factService ", FactService);
-    //Expect a camel fact to return from the fact service.
+    //Expect an ostrich fact to return from the fact service.
     expect(fact["ostrich-fact"]).toContain("Ostriches");
   });
 
